@@ -34,8 +34,9 @@ a:hover {
   width: 100%;
 }
 .page-title{
-  font-size: 3rem;
-  font-weight: 700;
+  font-size:2.3rem;
+  line-height: 3rem;
+  font-weight: 800;
   color: #000;
 }
 .page-subtitle{
@@ -74,6 +75,9 @@ a:hover {
 }
 .icon.Home {
   background-image: url("/icons-columns/homes-64.png");
+}
+.icon.Check {
+  background-image: url("/checkmark.png");
 }
 
 .icon.Bathrooms {
@@ -117,11 +121,15 @@ a:hover {
 .b-patt{
   background-image: url("/patt.svg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   height: 100%;
   width: 100%;
   background-size: 50%;
 }
+.hero-img{
+  width: 300px;
+}
+
 .bg-lighter{
   background-color: #f0f0f0 !important;
 }
@@ -224,24 +232,7 @@ ul{
   box-shadow: 0 0 30px 0 rgba(75, 75, 75, 0.1) !important;
 }
 
-@media only screen and (max-width: 768px){
-.fixxcont2 {
-    bottom: 12px;
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 9px;
-}}
 
-@media only screen and (max-width: 768px)
-{
-  .fixxcont, .fixxcont2 {
-    position: fixed;
-    z-index: 9999;
-    display: block;
-}
-
-}
 
 .textvsmall {
   font-size: .9rem !important;
@@ -253,4 +244,46 @@ ul{
   font-weight: 800;
   letter-spacing: .07rem;
   text-shadow: 1px 1px #000;
+}
+.navbar-logo{
+  width: 100px;
+}
+.leaf-img {
+  width: 12px;
+}
+.btn:hover{
+  text-decoration: none !important;
+}
+.clients{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.clients img {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  filter: grayscale(100);
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .fixxcont2 {
+      bottom: 12px;
+      width: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 9px;
+  }
+  .fixxcont, .fixxcont2 {
+      position: fixed;
+      z-index: 9999;
+      display: block;
+  }
+  .clients{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

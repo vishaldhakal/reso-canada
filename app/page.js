@@ -56,245 +56,191 @@ export default function Home() {
           __html: JSON.stringify(PreconSchema()),
         }}
       />
-      <div className="b-patt py-md-5">
+      <div className="b-patt">
         <div className="container">
           <div className="row row-cols-1 row-cols-md-2 py-2 py-md-5 d-flex align-items-center">
             <div className="col order-1 order-md-0">
               <div className="position-relative">
                 <div className="text-start">
-                  <h1 className="page-title">
-                    <strong className="fs-large">
-                      EMPIRE<span className="text-secondary">CANALS</span>{" "}
-                    </strong>
-                  </h1>
-                  <h2 className="page-subtitle">
-                    A community nestled between the Welland Canal
+                  <h2 className="page-subtitle fs-5">
+                    Broker or a Realtor in Canada ?
                   </h2>
+                  <h1 className="page-title">
+                    Grow your Real Estate Business with RESO-Compliant Websites
+                  </h1>
                 </div>
-                <section className="mt-5">
+                <section className="mt-3">
                   <div className="d-flex justify-content-start">
-                    <ul className="row row-cols-1 row-cols-md-2 col-12 g-4 justify-content-center iconn">
+                    <ul className="row row-cols-1 row-cols-md-1 col-12 g-1 justify-content-center iconn">
                       <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Home"></span>
-                        <p>Townhomes &amp; Detached</p>
+                        <span className="icon Check"></span>
+                        <p>Access to all listings and data</p>
                       </li>
                       <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Storeys"></span>
-                        <p>2 Stories</p>
+                        <span className="icon Check"></span>
+                        <p>Unique Design</p>
                       </li>
                       <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Size"></span>
-                        <p>1,235 – 2,625 sq. ft.</p>
+                        <span className="icon Check"></span>
+                        <p>Search Engine Optimized</p>
                       </li>
                       <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Bedrooms"></span>
-                        <p>3 – 4 Bedrooms</p>
+                        <span className="icon Check"></span>
+                        <p>Lead Generation Forms : Get the Leads</p>
                       </li>
                       <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Bathrooms"></span>
-                        <p>2.5 – 3.5 Bathrooms</p>
-                      </li>
-                      <li className="col d-flex gap-2 justify-content-start">
-                        <span className="icon Location"></span>
-                        <p>Welland | Niagara Region</p>
+                        <span className="icon Check"></span>
+                        <p>Analytics : Know Your Visitors</p>
                       </li>
                     </ul>
                   </div>
                 </section>
-                <div className="d-flex flex-column flex-md-row mt-5 gap-4 align-items-md-center justify-content-start">
-                  <div className="d-flex justify-content-start gap-2">
-                    <div className="offer1">
-                      <img
-                        src="/des1.png"
-                        alt="Empire canals TOWNS STARTING FROM $589,990 offer"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="offer2">
-                      <img
-                        src="/des2.png"
-                        alt="Empire canals DETACHED STARTING FROM $739,990 offer"
-                        className="img-fluid"
-                      />
-                    </div>
-                  </div>
+                <div className="d-flex justify-content-start gap-2  mt-3">
+                  I want to be a Top Agent/Broker
+                </div>
+                <div className="d-flex flex-column mt-1 flex-md-row gap-4 align-items-md-center justify-content-start">
                   <Link
                     className="btn btn-lg btn-register shadow"
                     href="#contact"
                   >
-                    Register Now
+                    Build me a RESO Website
                     <img
                       src="/arrow-right.svg"
                       alt="right arrow"
                       className="img-fluid rarr"
                     />
                   </Link>
+                  <Link
+                    className="btn btn-lg btn-outline-dark shadow"
+                    href="#contact"
+                  >
+                    Book a Demo
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="col">
-              <video
-                src="/empire_canals_desktop.mp4"
-                type="video/mp4"
-                autoPlay={true}
-                loop={true}
-                playsInline={true}
-                muted={true}
-                className="img-fluid hero-video"
-              ></video>
+            <div className="col d-flex justify-content-center justify-content-md-end">
+              <img src="/flow.png" alt="" className="img-fluid hero-img" />
             </div>
           </div>
         </div>
       </div>
 
-      <section className="container" id="renderings">
-        <div>
-          <div className="container pt-3 " id="gallery">
-            <div className="my-md-5 my-3"></div>
-            <div className="pt-md-5 pt-5">
-              <h2 className="fw-bold fs-1 pb-3  ps-3 ps-md-0 d-flex justify-content-center brand-color">
-                Empire Canals : Models and Renderings
-              </h2>
-            </div>
-            <div className="rounded-3">
-              <div className="d-flex justify-content-between pb-3">
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center g-4">
-                  <div className="col">
-                    <div className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering1.jpeg"
-                        alt="Empire Wyndfield Rendering 1"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering2.jpeg"
-                        alt="Empire Wyndfield Rendering 2"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div href="#" className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering3.jpeg"
-                        alt="Empire Wyndfield Rendering 3"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering4.jpeg"
-                        alt="Empire Wyndfield Rendering 4"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering5.jpeg"
-                        alt="Empire Wyndfield Rendering 5"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                  <div className="col">
-                    <div className="afte">
-                      <img
-                        loading="lazy"
-                        src="/rendering6.jpeg"
-                        alt="Empire Wyndfield  Rendering 6"
-                        className="img-fluid imghei"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <section className="container py-5 my-5">
+        <h2 className="fw-bold text-center page-title pb-3">
+          Look Who Trusted
+        </h2>
+        <div className="row row-cols-5 clients align-items-center gx-5">
+          <div className="col">
+            <img src="/dolphin.png" alt="" className="img-fluid" />
+          </div>
+          <div className="col">
+            <img src="/baystreet.png" alt="" className="img-fluid" />
+          </div>
+          <div className="col">
+            <img src="/dolphy.svg" alt="" className="img-fluid" />
+          </div>
+          <div className="col">
+            <img src="/elixar.png" alt="" className="img-fluid" />
+          </div>
+          <div className="col">
+            <img src="/tony.png" alt="" className="img-fluid" />
           </div>
         </div>
       </section>
-      <section className="b-patt pb-5" id="plans">
-        <div className="container pt-5" id="plans">
-          <div className="my-md-5 my-3"></div>
-          <div className="pt-md-5 pt-5">
-            <h2 className="fw-bold fs-1 pb-3  ps-3 ps-md-0 d-flex justify-content-center custom-underline brand-color">
-              Empire Canals :Floor Plans
-            </h2>
-            <div>
-              <div className="row me-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 me-0 d-flex justify-content-center">
-                <div className="col ">
-                  <div className="card border-0 shadow-lg rounded-mine floorbtns">
-                    <img
-                      loading="lazy"
-                      src="empire-floorplan1.gif"
-                      className="card-img-top py-4 rounded-top-mine"
-                      alt="Empire canals floorplans 1"
-                    />
-                  </div>
-                </div>
-                <div className="col ">
-                  <div className="card border-0 shadow-lg rounded-mine floorbtns">
-                    <img
-                      loading="lazy"
-                      src="empire-floorplan2.gif"
-                      className="card-img-top py-4 rounded-top-mine"
-                      alt="Empire canals floorplans 2"
-                    />
-                  </div>
-                </div>
-                <div className="col ">
-                  <div className="card border-0 shadow-lg rounded-mine floorbtns">
-                    <img
-                      loading="lazy"
-                      src="empire-floorplan3.gif"
-                      className="card-img-top py-4 rounded-top-mine"
-                      alt="Empire canals floorplans 3"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className="container">
+        <div class="mt-5">
+          <h1 class="text-start pt-md-5 fw-bold d-flex justify-content-start align-items-center mx-4">
+            What Is RESO Web API for TRREB?
+          </h1>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <p class="textt mx-4">
+              When it comes to real estate websites, you may have encountered
+              terms like IDX and VOW. Both play crucial roles in helping buyers
+              and sellers connect in the digital real estate landscape, but they
+              serve different purposes and have distinct features. In this
+              article, we'll dive into the key differences between IDX (Internet
+              Data Exchange) and VOW (Virtual Office Website) to help you better
+              understand their functions and benefits.
+            </p>
+          </div>
+
+          <div class="d-flex textt">
+            <h2 class="pt-5 textt mx-4">IDX (Internet Data Exchange):</h2>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <ol class="textt pt-3 mx-4 ">
+              <li class="pb-2">
+                <b>Broker Cooperation:</b> IDX primarily facilitates cooperation
+                among real estate brokers and agents. It allows them to share
+                property listings from multiple brokers on their websites. This
+                fosters collaboration within the industry and ensures that
+                buyers have access to a wide range of listings.
+              </li>
+              <li class="pb-2">
+                {" "}
+                <b> Property Search:</b> IDX enables users to search for
+                properties listed by multiple brokers in a specific area. Users
+                can filter results based on various criteria such as price
+                range, property type, location, and more. This makes it a
+                powerful tool for homebuyers looking for their dream home.
+              </li>
+              <li class="pb-2">
+                <b>Limited Information:</b> IDX typically provides limited
+                property information to the public. Users can view property
+                details, photos, and contact the listing agent for more
+                information. However, certain sensitive information, such as
+                seller contact details, may be restricted.
+              </li>
+              <li class="pb-2">
+                <b>Consumer-Friendly:</b> IDX is designed to be
+                consumer-friendly, making it easy for homebuyers and sellers to
+                search for properties and connect with real estate
+                professionals.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div class="d-flex textt">
+            <h2 class="pt-5 textt mx-4">VOW (Virtual Office Website):</h2>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <ol class="textt pt-3 mx-4">
+              <li class="pb-2">
+                <b>Direct Access to MLS:</b>VOW websites, on the other hand,
+                offer direct access to the Multiple Listing Service (MLS). This
+                means that users can access more detailed and comprehensive
+                property information, including historical data, property
+                history, and even information on properties not currently on the
+                market.
+              </li>
+              <li class="pb-2">
+                {" "}
+                <b>Registration Required:</b> To access the full range of
+                information available on VOW websites, users typically need to
+                register or create an account. This allows real estate
+                professionals to capture leads and provide personalized
+                services.
+              </li>
+              <li class="pb-2">
+                <b>Enhanced Property Data:</b> VOW websites provide in-depth
+                property information, including past sales, price changes, and
+                property history. This wealth of information can be invaluable
+                for serious homebuyers and investors.
+              </li>
+              <li class="pb-2">
+                <b>Agent Collaboration: </b>VOWs often encourage users to work
+                closely with a specific agent or broker. These platforms may
+                offer advanced search options and tools for collaborating with
+                real estate professionals.
+              </li>
+            </ol>
+            <p></p>
           </div>
         </div>
-      </section>
-      <section id="location">
-        <div className="container pt-md-5 pt-5" id="location">
-          <div className="pt-md-5 pt-5"></div>
-          <div className="py-5">
-            <h2 className="fw-bold fs-1 mb-0 text-center justify-content-center brand-color">
-              Empire Canals : Project Location
-            </h2>
-            <span className="small-text text-center d-flex justify-content-center custom-underline pb-3">
-              635 Canal Bank St, Welland, ON L0S 1K0, Canada
-            </span>
-            <div>
-              <div className="bg-white p-1   rounded-mine d-flex justify-content-center ">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.260529397992!2d-79.25010492397651!3d42.95171389751798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3364cf3e2ed39%3A0x96818e24310daf4!2s635%20Canal%20Bank%20St%2C%20Welland%2C%20ON%20L0S%201K0%2C%20Canada!5e0!3m2!1sen!2snp!4v1709468941292!5m2!1sen!2snp"
-                  width="900"
-                  height="450"
-                  allowFullScreen=""
-                  loading="lazy"
-                  className="border-0"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
       <div className="py-5"></div>
       <section id="contact">
         <div className="pt-5" id="Contact">

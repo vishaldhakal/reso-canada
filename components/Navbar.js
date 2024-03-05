@@ -4,12 +4,16 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white py-3 shadow-lg sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand d-flex align-items-start" href="#">
           <img
-            src="/empire-canal-logo.png"
+            src="/reso-logo.png"
             alt="Logo of Empire Canals, a community nestled between the Welland Canal"
-            className="img-fluid"
+            className="img-fluid navbar-logo"
           />
+          <b>
+            Canada
+            <img src="/canadaleaf.svg" alt="" className="img-fluid leaf-img" />
+          </b>
         </a>
         <button
           className="navbar-toggler nav-small"
@@ -24,11 +28,6 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 align-items-start align-items-md-center mt-4 mt-md-0">
-            <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/">
-                Home
-              </Link>
-            </li>
             {/* <li className="nav-item">
               <Link className="nav-link" href="#about">
                 About
@@ -36,17 +35,12 @@ export default function Navbar() {
             </li> */}
             <li className="nav-item">
               <Link className="nav-link" href="#renderings">
-                Renderings
+                RESO Website Toronto
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="#plans">
-                Plans & Pricing
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="#location">
-                Location
+                RESO Realtor website
               </Link>
             </li>
             <li className="nav-item">
@@ -60,14 +54,14 @@ export default function Navbar() {
                 >
                   <b id="utility__phone-number text-dark">(647) 402‑4100</b>
                   <span className="d-block travel__expert fs-vsmall text-dark">
-                    Call your Home Specialists
+                    Call your RESO Specialists
                   </span>
                 </span>
               </Link>
             </li>
             <li className="nav-item">
               <Link className="btn btn-lg btn-register shadow" href="#contact">
-                Register Now
+                Build me a RESO Website
                 <img
                   src="/arrow-right.svg"
                   alt="right arrow"
